@@ -3,6 +3,7 @@ body {
     height:100vh;
     display: flex;
     flex-direction: column;
+    background-color: whitesmoke;
 }
 
 .header {
@@ -18,10 +19,10 @@ body {
 
 li{
     display:inline;
-    margin-left:5px;
+    margin-left:10px;
 }
 
-.header, .section1, .footer{
+.header, .footer{
     background-color: #1f2937;
 }
 
@@ -31,10 +32,18 @@ li{
     font-weight: 600;
 }
 
+.section1, .section2, .section3, .section4 {
+    margin-bottom:20px;
+}
+
 .section1 {
+ background-image:url(./img/mystery_her0_bg.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
  display: flex;
  justify-content: space-around;
  padding:20px;
+ margin-bottom:20px;
 }
 
 .hero {
@@ -62,14 +71,18 @@ li{
     align-items: center;
     justify-content: center;
     padding:10px;
+    margin-top: 20px;
+    margin-bottom:20px;
 }
 
 .cards{
     display:flex;
     flex-flow:row wrap;
-    gap:20px;
-    padding:10px;
-    margin:5px;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    padding:5px;
+    margin:3px;
     
 }
 
@@ -78,6 +91,7 @@ li{
     flex-flow: column wrap;
     padding:5px;
     margin:5px;
+    text-align: center;
 }
 
 .cards img{
@@ -85,7 +99,7 @@ li{
     height:200px;
     flex-shrink: 0;
     margin-bottom:10px;
-    border:3px solid #3882f6;
+    border:3px solid #011d00;
     border-radius:5px;
 }
 
@@ -101,22 +115,22 @@ li{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    background-color: #e5e7eb;
+    background-color: #35371f;
     padding:10px;
+}
+
+.section3 hr {
+    width: 500px;
+    border-bottom: 1px solid aliceblue;
 }
 
 .quote {
     font-size: 36px;
+    max-width: 75%;
     color:#1f2937;
     text-align: center;
-    padding:20px;
-}
-
-.attribute{
-    font-weight: bold;
-    text-align: right;
-    margin-left:auto;
-    padding-right:50px;
+    padding:15px;
+    color:white;
 }
 
 .section4 {
@@ -130,9 +144,9 @@ li{
 
 .call-box {
     display:flex;
-    width:700px;
-    height:150px;
-    background-color: #3882f6;
+    width:600px;
+    height:125px;
+    background-color: #1f2937;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
@@ -142,6 +156,7 @@ li{
     display:flex;
     flex-flow: column wrap;
     color:white;
+    max-width: 65%;
     padding:0px 10px;
     margin:0px 10px;
 }
@@ -157,13 +172,18 @@ li{
     margin-top:3px;
 }
 
+.signup2 {
+     margin:10px 20px 10px auto;
+}
+
 .signup2, .signup {
+    border: 1px solid white;
     border-radius: 8px;
-    border-style: none;
-    background-color: #3882f6;
+    background-color: #1f2937;
     color: white;
     flex: 0 0 auto;
-    padding:5px 10px;
+    padding:8px 25px;
+    font-size: 14px;
     
 }
 
@@ -172,11 +192,6 @@ button:hover{
     top:-1px;
     left:-1px;
     cursor: pointer;
-}
-
-.signup2 {
-     border: 1px solid white;
-     margin:10px 20px 10px auto;
 }
 
 .footer {
