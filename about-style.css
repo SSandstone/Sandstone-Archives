@@ -63,7 +63,8 @@ li{
     align-items: center;
     justify-content: center;
     margin:5px 10px;
-    flex: 0 1 auto;
+    flex: 1 1 auto;
+    max-width:55%;
 }
 
 .hero-img{
