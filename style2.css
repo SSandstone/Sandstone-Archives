@@ -5,6 +5,13 @@ body {
     flex-flow: column nowrap;
 }
 
+.doors {
+ display:flex;
+ flex-flow: row wrap;
+ justify-content:center;
+ align-items:center;
+}
+
 /*Left Door*/
 .left-door {
   position: relative;
