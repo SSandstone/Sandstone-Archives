@@ -8,6 +8,13 @@ body {
     background-color: whitesmoke;
 }
 
+/* some finetuning for tablets/phones */
+@media only screen and (max-width: 992px) {
+  .hero-text {
+    max-width:80%;
+    }
+}
+
 .header {
  display:flex;
  padding:10px;
@@ -134,7 +141,7 @@ li{
 }
 
 .quote {
-    font-size: 32px;
+    font-size: 28px;
     flex: 1 1 auto;
     text-align: center;
     padding:15px;
@@ -152,7 +159,7 @@ li{
 
 .call-box {
     display:flex;
-    max-width:90%;
+    max-width:80%;
     background-color: #1f2937;
     border-radius: 5px;
     justify-content: center;
@@ -168,7 +175,7 @@ li{
 }
 
 .call-title {
-    max-width: 55%;
+    max-width: 68%;
     font-weight: bold;
     font-size: 18px;
     margin-bottom:3px;
