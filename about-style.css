@@ -172,6 +172,7 @@ body {
 }
 
 .call-text {
+    max-width: 70%;
     display:flex;
     flex-flow: column wrap;
     color:white;
@@ -180,7 +181,6 @@ body {
 }
 
 .call-title {
-    max-width: 65%;
     font-weight: bold;
     font-size: 16px;
     margin-bottom:3px;
