@@ -7,17 +7,22 @@ body {
   gap:20px;
 }
 
-div {
+/* div {
  margin-top:10px;
  margin-bottom:10px;
  padding:20px;
-}
+} */
 
 .doors {
  display:flex;
  flex-flow: row wrap;
  justify-content:center;
  align-items:center;
+}
+
+.footer {
+ margin-top:auto;
+ background-color: darkgrey;
 }
 
 /*Left Door*/
