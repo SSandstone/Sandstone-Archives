@@ -4,6 +4,7 @@ body {
   align-items: center;
     flex-flow: column nowrap;
  background-color: lightgrey;
+ background:url("./img/index-bg.jpg");
 }
 
 /* div {
