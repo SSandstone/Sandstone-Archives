@@ -168,6 +168,7 @@ li{
 }
 
 .call-title {
+    max-width: 55%;
     font-weight: bold;
     font-size: 18px;
     margin-bottom:3px;
