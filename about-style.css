@@ -32,11 +32,11 @@ body {
     margin-left: auto;
 }
 
-li{
-    display:inline;
+.nav li{
+    display:inline-block;
     text-decoration:underline;
-    margin:8px 4px 4px 4px; 
-    padding:3px;
+    margin:4px; 
+    padding:2px;
 }
 
 .header, .footer{
@@ -225,7 +225,7 @@ button:hover{
 ul {
 list-style-type: none;
 margin: 2px 4px;
-padding: 3px;
+padding: 2px;
 }
 
 .header a {
