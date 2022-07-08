@@ -1,4 +1,5 @@
 body {
+ height:100vh;
  display:flex;
  justify-content:center;
   align-items: center;
@@ -7,10 +8,13 @@ body {
  background:url("./img/index-bg.jpg");
 }
 
-/* div {
- margin-top:10px;
- margin-bottom:10px;
-} */
+.title {
+ display:flex;
+}
+
+.subtitle {
+ display:flex;
+}
 
 .doors {
  display:flex;
@@ -186,14 +190,6 @@ body {
   height: 100%;
   overflow: hidden;
   outline: 10px solid #edf2f4;
-}
-
-.title {
- display:flex;
-}
-
-.subtitle {
- display:flex;
 }
 
 .footer{
