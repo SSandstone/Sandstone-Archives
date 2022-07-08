@@ -64,7 +64,7 @@ li{
     justify-content: center;
     margin:5px 10px;
     flex: 1 1 auto;
-    max-width:55%;
+    max-width:50%;
 }
 
 .hero-img{
