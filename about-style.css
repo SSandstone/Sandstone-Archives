@@ -9,9 +9,14 @@ body {
 }
 
 /* some finetuning for tablets/phones */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   .hero-text {
-    max-width:80%;
+    padding:5px;
+    align-items: center;
+    justify-content: center;
+    margin:5px 10px;
+    flex: 1 1 auto;
+    max-width:90%;
     }
 }
 
@@ -30,7 +35,7 @@ body {
 li{
     display:inline;
     text-decoration:underline;
-    margin:4px; 
+    margin:8px 4px 4px 4px; 
     padding:3px;
 }
 
@@ -159,7 +164,7 @@ li{
 
 .call-box {
     display:flex;
-    max-width:80%;
+    max-width:90%;
     background-color: #1f2937;
     border-radius: 5px;
     justify-content: center;
@@ -175,9 +180,9 @@ li{
 }
 
 .call-title {
-    max-width: 68%;
+    max-width: 65%;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom:3px;
 }
 
