@@ -9,7 +9,6 @@ body {
 /* div {
  margin-top:10px;
  margin-bottom:10px;
- padding:20px;
 } */
 
 .doors {
@@ -20,10 +19,7 @@ body {
  flex:0 0 auto;
 }
 
-.footer {
- margin-top:auto;
- background-color: darkgrey;
-}
+
 
 /*Left Door*/
 .left-door {
@@ -33,6 +29,8 @@ body {
   cursor: pointer;
   transform-style: preserve-3d;
     transform: perspective(2500px);
+ margin:30px 10px;
+  padding:10px;
 }
 
 .door-front {
@@ -112,6 +110,8 @@ body {
   cursor: pointer;
   transform-style: preserve-3d;
     transform: perspective(2500px);
+  margin:30px 10px;
+ padding:10px;
 }
 
 .right-door-front {
@@ -186,4 +186,9 @@ body {
   height: 100%;
   overflow: hidden;
   outline: 10px solid #edf2f4;
+}
+
+.footer {
+ margin-top:auto;
+ background-color: darkgrey;
 }
