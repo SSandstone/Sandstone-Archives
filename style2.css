@@ -1,0 +1,201 @@
+body {
+ height:100vh;
+ display:flex;
+  align-items: center;
+    flex-flow: column nowrap;
+ background-color:lightgrey;
+}
+
+.title {
+ display:flex;
+}
+
+.subtitle {
+ display:flex;
+}
+
+.doors {
+ display:flex;
+ flex-flow: row nowrap;
+ justify-content:center;
+ align-items:center;
+ flex:0 0 auto;
+ margin:20px;
+}
+
+/*Left Door*/
+.left-door {
+  position: relative;
+  width: 170px;
+  height:270px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+    transform: perspective(2500px);
+ margin:30px 10px;
+  padding:10px;
+}
+
+.door-front {
+  width: 170px;
+  height:270px;
+  overflow: hidden;
+  transform-origin: left;
+  box-shadow: 30px 0 50px rgba(0,0,0,0.2);
+  position: absolute;
+  background-color: #1f2937;
+  z-index:1;
+  transition: .5s;
+}
+
+.door-front:before, .door-front:after {
+  content:"";
+  position: absolute;
+  background-color: #374962;
+  width: 105px;
+  height: 75px;
+  border: 10px ridge #164383;
+  left:22.5px;
+}
+
+.door-front:before {
+  top:25px;
+}
+
+.door-front:after {
+  top:155px;
+}
+.knob {
+  position: absolute;
+  width: 20px;
+  height:30px;
+  background-color: #eeba0b;
+  top:122px;
+  left:145px;
+  border-radius:2px;
+}
+
+.knob:before {
+  content:"";
+  position: absolute;
+  border-radius:50%;
+  background-color: #f1c83c;
+  width:18px;
+  height:18px;
+  left:-1px;
+  box-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
+.knob:after {
+  content:"";
+  position: absolute;
+  width:4px;
+  height:7px;
+  background-color: #333;
+  top:20px;
+  left:8.5px;
+}
+
+.left-door:hover .door-front {
+  transform: rotateY(-160deg); 
+}
+
+/*Middle Door Animation*/
+
+
+
+/*Right Door Animation*/
+
+.right-door {
+  position: relative;
+  width: 170px;
+  height:270px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+    transform: perspective(2500px);
+  margin:30px 10px;
+ padding:10px;
+}
+
+.right-door-front {
+  width: 170px;
+  height:270px;
+  overflow: hidden;
+  transform-origin: right;
+  box-shadow: 30px 0 50px rgba(0,0,0,0.2);
+  position: absolute;
+  background-color: #011d00;
+  z-index:1;
+  transition: .5s;
+}
+
+.right-door-front:before, .right-door-front:after {
+  content:"";
+  position: absolute;
+  background-color: #024200;
+  width: 105px;
+  height: 75px;
+  border: 10px ridge #046b00;
+  right:22.5px;
+}
+
+.right-door-front:before {
+  top:25px;
+}
+
+.right-door-front:after {
+  top:155px;
+}
+.right-knob {
+  position: absolute;
+  width: 20px;
+  height:30px;
+  background-color: #eeba0b;
+  top:122px;
+  right:145px;
+  border-radius:2px;
+}
+
+.right-knob:before {
+  content:"";
+  position: absolute;
+  border-radius:50%;
+  background-color: #f1c83c;
+  width:18px;
+  height:18px;
+  right:-1px;
+  box-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
+.right-knob:after {
+  content:"";
+  position: absolute;
+  width:4px;
+  height:7px;
+  background-color: #333;
+  top:20px;
+  right:8.5px;
+}
+
+.right-door:hover .right-door-front {
+  transform: rotateY(160deg); 
+}
+
+/*Door Back after animation of opening*/
+.door-back {
+  position: relative;
+  background: linear-gradient(0deg, rgba(6, 7, 10, 1) 13%, rgba(32, 41, 55, 1) 13%, rgba(79,100,124,1) 15%, rgba(87,115,153,1) 15%);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 10px solid #edf2f4;
+}
+
+.footer{
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ color: aliceblue;
+ background-color: #1f2937;
+ width:100%;
+ margin-top:auto;
+}
