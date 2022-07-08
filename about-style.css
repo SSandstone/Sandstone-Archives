@@ -149,9 +149,7 @@ li{
 
 .call-box {
     display:flex;
-    width:800%;
-    margin: 0 auto;
-    height:auto;
+    max-width:90%;
     background-color: #1f2937;
     border-radius: 5px;
     justify-content: center;
