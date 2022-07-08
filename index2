@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandstone Archives</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <div class="door-front">
+    <div class="knob"></div>
+  </div>
+  <div class="door-back">
+    <div class="door-back-bg"></div>
+  </div>
+</div>
+
+<!-- <div class="middle-door">
+  <div class="door-front">
+    <div class="knob"></div>
+  </div>
+  <div class="door-back">
+    <div class="door-back-bg"></div>
+  </div>
+</div> -->
+
+<div class="right-door">
+  <div class="right-door-front">
+    <div class="right-knob"></div>
+  </div>
+  <div class="door-back">
+    <div class="door-back-bg"></div>
+  </div>
+</div>
+
+
+</body>
+</html>
