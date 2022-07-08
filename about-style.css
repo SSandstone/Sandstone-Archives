@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    margin: 0px;
+    padding:0px;
     height:100vh;
     display: flex;
     flex-direction: column;
@@ -62,7 +63,7 @@ li{
 }
 
 .hero-img{
-    width:300px;
+    max-width:300px;
     padding:5px;
     flex: 0 1 auto;
 }
@@ -118,11 +119,12 @@ li{
     justify-content: center;
     align-items: center;
     background-color: #35371f;
+    width:100%;
     padding:10px;
 }
 
 .section3 hr {
-    width: 500px;
+    width: 60%;
     border-bottom: 1px solid aliceblue;
 }
 
@@ -145,7 +147,8 @@ li{
 
 .call-box {
     display:flex;
-    width:600px;
+    width:60%;
+    margin: 0 auto;
     height:125px;
     background-color: #1f2937;
     border-radius: 5px;
