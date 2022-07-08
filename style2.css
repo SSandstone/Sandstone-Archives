@@ -181,7 +181,7 @@ body {
 /*Door Back after animation of opening*/
 .door-back {
   position: relative;
-  background: linear-gradient(0deg, rgba(193,124,116,1) 13%, rgba(73,88,103,1) 13%, rgba(79,100,124,1) 15%, rgba(87,115,153,1) 15%);
+  background: linear-gradient(0deg, rgba(6, 7, 10, 1) 13%, rgba(32, 41, 55, 1) 13%, rgba(79,100,124,1) 15%, rgba(87,115,153,1) 15%);
   width: 100%;
   height: 100%;
   overflow: hidden;
