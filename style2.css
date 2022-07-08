@@ -6,17 +6,18 @@ body {
  background-color: lightgrey;
 }
 
- div {
+/* div {
  margin-top:10px;
  margin-bottom:10px;
  padding:20px;
-}
+} */
 
 .doors {
  display:flex;
  flex-flow: row nowrap;
  justify-content:center;
  align-items:center;
+ flex:0 0 auto;
 }
 
 .footer {
@@ -49,10 +50,10 @@ body {
 .door-front:before, .door-front:after {
   content:"";
   position: absolute;
-  background-color: #924500;
+  background-color: #374962;
   width: 105px;
   height: 75px;
-  border: 10px ridge #b05500;
+  border: 10px ridge #164383;
   left:22.5px;
 }
 
@@ -128,10 +129,10 @@ body {
 .right-door-front:before, .right-door-front:after {
   content:"";
   position: absolute;
-  background-color: #924500;
+  background-color: #024200;
   width: 105px;
   height: 75px;
-  border: 10px ridge #b05500;
+  border: 10px ridge #046b00;
   right:22.5px;
 }
 
