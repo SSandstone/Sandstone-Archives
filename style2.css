@@ -17,6 +17,8 @@ body {
  justify-content:center;
  align-items:center;
  flex:0 0 auto;
+ margin-top:auto;
+ margin-bottom:auto;
 }
 
 
