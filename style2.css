@@ -190,11 +190,15 @@ body {
   outline: 10px solid #edf2f4;
 }
 
-.footer {
+.footer{
  display:flex;
  justify-content:center;
  align-items:center;
  color: aliceblue;
  margin-top:auto;
  background-color: #1f2937;
+}
+
+.footer p{
+ color:white;
 }
