@@ -50,6 +50,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 .hero-text {
@@ -57,6 +58,7 @@ li{
     align-items: center;
     justify-content: center;
     margin:5px 10px;
+    flex: 0 1 auto;
 }
 
 .hero-img{
@@ -134,7 +136,7 @@ li{
 
 .section4 {
     display: flex;
-    padding:10px;
+    padding:2px;
     justify-content: center;
     align-items: center;
     margin-top:30px;
@@ -155,9 +157,8 @@ li{
     display:flex;
     flex-flow: column wrap;
     color:white;
-    max-width: 65%;
-    padding:0px 10px;
-    margin:0px 10px;
+    padding:2px 5px;
+    margin:2px 5px;
 }
 
 .call-title {
